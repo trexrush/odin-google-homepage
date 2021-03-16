@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+#navbar {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    margin: 0px;
+}
+
+#left, #right {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.header-button {
+    background-color: darkgray;
+    color: black;
+    font-size: 13;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
