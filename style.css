@@ -6,16 +6,15 @@ body {
 }
 
 #navbar {
-    background-color: lightgray;
     display: flex;
     align-items: center;
-    padding: 6px;
     margin: 0px;
+    padding: 0px 6px 0px 6px;
     height: 60px;
 }
 
 #about {
-    margin: 0px 0px 0px 15px;
+    margin: 0px 5px 0px 15px;
     padding: 5px;
 }
 
@@ -25,7 +24,6 @@ body {
 }
 
 #space {
-    background-color:aliceblue;
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -34,16 +32,25 @@ body {
 }
 
 #right {
+    display: flex;
     font-size: 13px;
-    padding: 0px 4px 0px 32px;
+    padding: 0px 0px 0px 32px;
     flex: 0 0 auto;
     align-items: center;
+    vertical-align: middle;
     
 }
 
+#more {
+    width: 23px;
+    height: 23px;
+    margin-left: 10px;
+}
+
 #account {
-    width: 33px;
-    height: 33px;
+    padding: 0px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
 }
 
