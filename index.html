@@ -6,12 +6,12 @@
     </head>
     <body>
         <header id="navbar">
-            <a id="about" class="header-button" href="#">About</a>
-            <a id="store" class="header-button" href="#">Store</a>
+            <a href="https://about.google/" id="about" class="header-button">About</a>
+            <a href="https://store.google.com/US/" id="store" class="header-button">Store</a>
             <div id="space">
                 <div id="right">
-                    <a href="#" id="gmail" class="header-button rightnav-button">Gmail</a>
-                    <a href="#" id="images" class="header-button rightnav-button">Images</a>
+                    <a href="https://mail.google.com/mail/u/0/" id="gmail" class="header-button rightnav-button">Gmail</a>
+                    <a href="https://www.google.com/imghp" id="images" class="header-button rightnav-button">Images</a>
                     <a href="#" id="dots" class="rightnav-button">
                         <img src="images/more.png" alt="Apps" id="more">
                     </a>
@@ -21,12 +21,17 @@
                 </div>
             </div>
         </header>
-        <div id="google-search">
+        <div id="google-logo-container">
             <div id="above-logo-whitespace"></div>
-            <img style="display: block;" src="images/googleLogo.png" alt="Google Logo">
+            <img id="google-logo" src="images/googleLogo.png" alt="Google Logo">
+        </div>
+        <div id="google-search">
             <div id="search-bar">
-                <input type="search" />
-                <!-- add mic button here-->
+                <div id="search-outline"></div>
+                    <!-- <img src="images/google-search-icon.png" class="mini-icon"/> -->
+                    <input type="search" id="search-input"/>
+                    <!-- add mic button here-->
+                </div>
             </div>
             <!-- add div with search + feeling lucky buttons here -->
         </div>
