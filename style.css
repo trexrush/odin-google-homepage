@@ -178,3 +178,19 @@ body {
     box-shadow: 0px 1px 1px lightgrey;
     border: 1px solid #dfdfdf;
 }
+
+#spacer {
+    display: flex;
+    background-color: yellowgreen;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+footer {
+    background-color: rgb(226, 226, 226);
+}
+
+.footer-line {
+    text-align: center;
+}
