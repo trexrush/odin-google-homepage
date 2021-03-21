@@ -5,59 +5,70 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <!-- test flex column here later -->
-        <header id="navbar">
-            <a href="https://about.google/" id="about" class="header-button">About</a>
-            <a href="https://store.google.com/US/" id="store" class="header-button">Store</a>
-            <div id="space">
-                <div id="right">
-                    <a href="https://mail.google.com/mail/u/0/" id="gmail" class="header-button rightnav-button">Gmail</a>
-                    <a href="https://www.google.com/imghp" id="images" class="header-button rightnav-button">Images</a>
-                    <a href="#" id="dots" class="rightnav-button">
-                        <img src="images/more.png" alt="Apps" id="more">
-                    </a>
-                    <a href="https://github.com/trexrush" class="rightnav-button">
-                        <img src="images/githubProPic.jpg" alt="Profile" id="account">
-                    </a>
+            <!-- test flex column here later -->
+            <header id="navbar">
+                <a href="https://about.google/" id="about" class="link header-button">About</a>
+                <a href="https://store.google.com/US/" id="store" class="link header-button">Store</a>
+                <div id="nav-space">
+                    <div id="right">
+                        <a href="https://mail.google.com/mail/u/0/" id="gmail" class="link header-button rightnav-button">Gmail</a>
+                        <a href="https://www.google.com/imghp" id="images" class="link header-button rightnav-button">Images</a>
+                        <a href="#" id="dots" class="rightnav-button">
+                            <img src="images/more.png" alt="Apps" id="more">
+                        </a>
+                        <a href="https://github.com/trexrush" class="rightnav-button">
+                            <img src="images/githubProPic.jpg" alt="Profile" id="account">
+                        </a>
+                    </div>
                 </div>
+            </header>
+            <div id="google-logo-container">
+                <div id="above-logo-whitespace"></div>
+                <img id="google-logo" src="images/googleLogo.png" alt="Google Logo">
             </div>
-        </header>
-        <div id="google-logo-container">
-            <div id="above-logo-whitespace"></div>
-            <img id="google-logo" src="images/googleLogo.png" alt="Google Logo">
-        </div>
-        <div id="google-search">
-            <div id="search-bar">
-                <div id="search-container">
-                    <div id="search-outline"> 
-                        <div id="mag-glass">
-                            <img src="images/google-search-icon.png" class="mini-icon-mag"/>
-                        </div>  
-                        <input type="search" id="search-input"/>
-                        <div id="mic">
-                            <img src="images/mic.png" class="mini-icon-mic"/>
+            <div id="google-search">
+                <div id="search-bar">
+                    <div id="search-container">
+                        <div id="search-outline"> 
+                            <div id="mag-glass">
+                                <img src="images/google-search-icon.png" class="mini-icon-mag"/>
+                            </div>  
+                            <input type="search" id="search-input"/>
+                            <div id="mic">
+                                <img src="images/mic.png" class="mini-icon-mic"/>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="button-container">
+                    <input type="button" class="search-button" value="Google Search" />
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                        <input type="button" class="search-button" value="I'm Feeling Lucky" />
+                    </a>
+                </div>
             </div>
-            <div class="button-container">
-                <input type="button" class="search-button" value="Google Search" />
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                    <input type="button" class="search-button" value="I'm Feeling Lucky" />
-                </a>
-            </div>
-        </div>
-        <div id="spacer">
+            <div id="spacer">
 
-        </div>
-        <footer>
-            <div class="footer-line">
-                <img src="images/leaf.png" style="height: 14px; margin-right: 6px;">    
-                <span>Carbon Neutral Since 2007</span>
             </div>
-            <div class="footer-line">
-                    <p>a</p>
-            </div>
-        </footer>
+            <footer>
+                <div class="footer-line">
+                    <div class="footer-links one">
+                        <a href="https://ads.google.com/intl/en_us/home" class="link footer-elem">Advertising</a>
+                        <a href="https://smallbusiness.withgoogle.com" class="link footer-elem">Business</a>
+                        <a href="https://www.google.com/search/howsearchworks" class="link footer-elem">How Search works</a>
+                    </div>
+
+                    <div class="carbon-statement">
+                        <img src="images/leaf.png" style="height: 14px; margin-right: 6px;">    
+                        <span>Carbon neutral since 2007</span>
+                    </div>
+
+                    <div class="footer-links three">
+                        <a href="https://policies.google.com/privacy" class="link footer-elem">Privacy</a>
+                        <a href="https://policies.google.com/terms" class="link footer-elem">Terms</a>
+                        <a href="#" class="link footer-elem">Settings</a>
+                    </div>
+                </div>
+            </footer>
     </body>
 </html>
