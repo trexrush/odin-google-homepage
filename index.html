@@ -5,7 +5,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     </head>
     <body>
-            <!-- test flex column here later -->
             <header id="navbar">
                 <a href="https://about.google/" id="about" class="link header-button">About</a>
                 <a href="https://store.google.com/US/" id="store" class="link header-button">Store</a>
@@ -13,11 +12,15 @@
                     <div id="right">
                         <a href="https://mail.google.com/mail/u/0/" id="gmail" class="link header-button rightnav-button">Gmail</a>
                         <a href="https://www.google.com/imghp" id="images" class="link header-button rightnav-button">Images</a>
-                        <a href="#" id="dots" class="rightnav-button">
-                            <img src="images/more.png" alt="Apps" id="more">
+                        <a href="#" id="dots" class="hoverable-icon rightnav-button">
+                            <div class="hover-circle">
+                                <img src="images/more.png" alt="Apps" id="more">
+                            </div>
                         </a>
-                        <a href="https://github.com/trexrush" class="rightnav-button">
-                            <img src="images/githubProPic.jpg" alt="Profile" id="account">
+                        <a href="https://github.com/trexrush" class="hoverable-icon rightnav-button">
+                            <div class="hover-circle">
+                                <img src="images/githubProPic.jpg" alt="Profile" id="account">
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -47,9 +50,7 @@
                     </a>
                 </div>
             </div>
-            <div id="spacer">
-
-            </div>
+            <div id="spacer"></div>
             <footer>
                 <div class="footer-line">
                     <div class="footer-links one">
@@ -58,10 +59,10 @@
                         <a href="https://www.google.com/search/howsearchworks" class="link footer-elem">How Search works</a>
                     </div>
 
-                    <div class="carbon-statement">
+                    <a href="https://sustainability.google/commitments" class="carbon-statement link">
                         <img src="images/leaf.png" style="height: 14px; margin-right: 6px;">    
                         <span>Carbon neutral since 2007</span>
-                    </div>
+                    </a>
 
                     <div class="footer-links three">
                         <a href="https://policies.google.com/privacy" class="link footer-elem">Privacy</a>

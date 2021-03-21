@@ -44,10 +44,31 @@ body {
 #more {
     width: 23px;
     height: 23px;
-    margin-left: 10px;
+    visibility: visible;
+}
+
+.hover-circle {
+    visibility: hidden;
+    background-color: rgba(219, 219, 219, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoverable-icon {
+    margin-right: 8px !important;
+}
+
+.hover-circle:hover {
+    visibility: visible;
 }
 
 #account {
+    visibility: visible;
     padding: 0px;
     width: 32px;
     height: 32px;
@@ -55,7 +76,7 @@ body {
 }
 
 .rightnav-button {
-    margin-right: 15px;
+    margin-right: 16px;
 }
 
 .header-button {
@@ -187,7 +208,6 @@ body {
 
 #spacer {
     display: flex;
-    background-color: yellowgreen;
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 100%;
@@ -197,7 +217,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 47px;
+    height: auto;
     background-color: rgb(240, 240, 240);
     color: #70757a;
     display: flex;
@@ -233,6 +253,8 @@ footer {
 }
 
 .carbon-statement {
+    color: #70757a;
+    text-decoration: none;
     display: flex;
     margin: 15px;
     order: 2;
